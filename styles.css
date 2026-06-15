@@ -295,6 +295,21 @@ a.project-card {
     padding: 2.5rem 1.25rem 5rem;
   }
 
+  .marquee-wrap {
+    overflow-x: auto;
+    scrollbar-width: none;
+  }
+
+  .marquee-wrap::-webkit-scrollbar {
+    display: none;
+  }
+
+  .marquee-inner {
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    padding: 0 1.25rem;
+  }
+
   .projects-grid {
     grid-template-columns: 1fr;
   }
